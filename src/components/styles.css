@@ -7,10 +7,55 @@ h1 {
 }
 
 .container {
-   width: 650px ; 
+  width: 100%;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 175px;
+  padding-top: 40px;
+  padding-bottom: 0;
+  overflow: hidden;
 }
-
+.fulltable {
+  display: inline-block;
+  width: 248px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  color: #3adc3a;
+}
+.chairs {
+  display: flex;
+  justify-content: space-around;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.instructor {
+  margin-top: 142px;
+  height: 100px;
+  border-radius: 5px;
+  width: 35%;
+  background-color: #cdd1d6;
+}
+.instructor p {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.seathead {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+.table {
+  height: 15px;
+  background-color: #e8e9ea;
+  border-radius: 5px;
+}
 .grid td {
   width: 150px;
   height: 70px;
@@ -22,7 +67,7 @@ h1 {
 }
 
 .grid td:hover {
-  opacity: .7;
+  opacity: 0.7;
   cursor: pointer;
 }
 
@@ -33,11 +78,11 @@ h1 {
 }
 
 .reserved::after {
-  content: 'RESERVED'
+  content: "RESERVED";
 }
 
 .available::after {
-  content: 'AVAILABLE'
+  content: "AVAILABLE";
 }
 
 .available {
