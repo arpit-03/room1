@@ -5,6 +5,7 @@ import Room from "./components/Room";
 import Seat from "./components/Seat";
 import Classroom from "./components/Classroom";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import './components/styles.css';
 function App() {
   return (
     <Router>
