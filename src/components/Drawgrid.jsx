@@ -22,15 +22,29 @@ class DrawGrid extends Component {
           </tbody>
 
         </table> */}
-        <Table />
-        <Table />
-        <Table />
-        <Table />
-        <Table />
-        <Table />
+        <Table seat={this.props.seat} id={0} onclick={this.props.onClickData} />
+        <Table seat={this.props.seat} id={5} onclick={this.props.onClickData} />
+        <Table seat={this.props.seat} id={9} onclick={this.props.onClickData} />
+        <Table
+          seat={this.props.seat}
+          id={13}
+          onclick={this.props.onClickData}
+        />
+        <Table
+          seat={this.props.seat}
+          id={17}
+          onclick={this.props.onClickData}
+        />
+        <Table
+          seat={this.props.seat}
+          id={21}
+          onclick={this.props.onClickData}
+        />
         <div className="instructor">
           <p>Instructor</p>
         </div>
+        <AvailableList available={this.props.available} />
+        <ReservedList reserved={this.props.reserved} />
       </div>
     );
   }

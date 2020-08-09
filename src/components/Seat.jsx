@@ -27,6 +27,10 @@ class Seat extends Component {
         "Agent18",
         "Agent19",
         "Agent20",
+        "Agent21",
+        "Agent22",
+        "Agent23",
+        "Agent24",
       ],
       seatAvailable: [
         "Agent1",
@@ -49,6 +53,10 @@ class Seat extends Component {
         "Agent18",
         "Agent19",
         "Agent20",
+        "Agent21",
+        "Agent22",
+        "Agent23",
+        "Agent24",
       ],
       seatReserved: [],
     };

@@ -16,7 +16,7 @@ h1 {
   padding: 175px;
   padding-top: 40px;
   padding-bottom: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .fulltable {
   display: inline-block;
