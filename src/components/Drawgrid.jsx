@@ -43,8 +43,8 @@ class DrawGrid extends Component {
         <div className="instructor">
           <p>Instructor</p>
         </div>
-        <AvailableList available={this.props.available} />
-        <ReservedList reserved={this.props.reserved} />
+        {/* <AvailableList available={this.props.available} />
+        <ReservedList reserved={this.props.reserved} /> */}
       </div>
     );
   }
